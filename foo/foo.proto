@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+package foo;
+
+import "subproject/bar.proto";
+
+message Foo {
+  optional string value = 1;
+  optional bar.Bar bar = 2;
+}
