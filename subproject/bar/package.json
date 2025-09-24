@@ -1,0 +1,12 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "Example subproject",
+  "private": true,
+  "packageManager": "pnpm@8.14.0",
+  "devDependencies": {
+    "@bufbuild/protobuf": "^2.2.2",
+    "@bufbuild/protoc-gen-es": "^2.2.0",
+    "typescript": "5.4.5"
+  }
+}
